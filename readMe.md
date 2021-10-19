@@ -27,7 +27,7 @@ Thus, you won't need to write the ETL yourselves, but you'll need to execute it 
 custom operators.
 <br>
 <br>
-![example](img.png)
+![example](img/img.png)
 <br>
 <br>
 Add Airflow Connections
@@ -40,11 +40,11 @@ If you'd prefer to run Airflow locally, open http://localhost:8080 in Google
 Chrome (other browsers occasionally have issues rendering the Airflow UI).
 Click on the Admin tab and select Connections.
 <br>
-![airflow1](img_1.png)
+![airflow1](img/img_1.png)
 <br>
 <br>
 Under Connections, select Create.
-![airflow1](img_2.png)
+![airflow1](img/img_2.png)
 <br>
 <br>
 On the create connection page, enter the following values:
@@ -55,7 +55,7 @@ Login: Enter your Access key ID from the IAM User credentials you downloaded ear
 Password: Enter your Secret access key from the IAM User credentials you downloaded earlier.
 Once you've entered these values, select Save and Add Another.
 <br>
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 <br>
 On the next create connection page, enter the following values:
 
@@ -69,9 +69,9 @@ Port: Enter 5439.
 Once you've entered these values, select Save.
 <br>
 <br>
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 <br>
-![img_5.png](img_5.png)
+![img_5.png](img/img_5.png)
 Awesome! You're now all configured to run Airflow with Redshift.
 
 WARNING: Remember to DELETE your cluster each time you are finished working to avoid large, unexpected costs.
@@ -100,7 +100,7 @@ A helper class for the SQL transformations
 With these template files, you should be able see the new DAG in the Airflow UI. 
 The graph view should look like this:
 <br>
-![img_6.png](img_6.png)
+![img_6.png](img/img_6.png)
 
 You should be able to execute the DAG successfully, 
 but if you check the logs, you will see only **operator not implemented** messages.
@@ -118,7 +118,7 @@ In addition, configure the task dependencies so that after the dependencies are 
 the graph view follows the flow shown in the image below.
 <br>
 <br>
-![img_7.png](img_7.png)
+![img_7.png](img/img_7.png)
 <br>
 #Building the operators
 To complete the project, you need to build four different operators that will stage the data, transform the data, and run checks on data quality.
