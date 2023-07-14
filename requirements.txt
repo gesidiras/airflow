@@ -20,7 +20,7 @@ colorama==0.4.4
 colorlog==5.0.1
 commonmark==0.9.1
 croniter==1.0.15
-cryptography==35.0.0
+cryptography==41.0.2
 defusedxml==0.7.1
 dill==0.3.4
 dnspython==2.1.0
