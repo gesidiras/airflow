@@ -11,7 +11,7 @@ attrs==20.3.0
 Babel==2.9.1
 blinker==1.4
 cattrs==1.5.0
-certifi==2021.10.8
+certifi==2023.7.22
 cffi==1.15.0
 charset-normalizer==2.0.7
 click==7.1.2
